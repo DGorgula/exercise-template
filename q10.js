@@ -2,9 +2,10 @@ function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");
     let out = "";
+/**/
+    // write your code here
+    // out = input + 5;
 
-    const data = JSON.parse(input);
-    out = Array.isArray(data);
-
+/**/
     output.innerText = out;
 }
