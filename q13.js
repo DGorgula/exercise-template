@@ -1,11 +1,22 @@
+const blankArr = [];
 function run() {
-    const input = document.getElementById("input").value;
     const output = document.getElementById("output");
-    let out = "";
-/**/
-    // write your code here
-    // out = input + 5;
+    for (let i = 0; i < blankArr.length; i++) {
+        output.innerText += 'Element ' + i + ' = ' + blankArr[i] + '\n';
+    }    
 
-/**/
-    output.innerText = out;
 }
+
+function add(){
+    const input = document.getElementById("input").value;
+    
+    blankArr.push(input);
+}
+
+
+
+
+function bla() {
+    document.getElementById("input").setAttribute("placeholder", "Put item here");
+    document.getElementById("add").hidden = false;
+} 
