@@ -1,11 +1,27 @@
 function run() {
     const input = document.getElementById("input").value;
+    const input1 = document.getElementById("input1").value;
     const output = document.getElementById("output");
-    let out = "";
-/**/
-    // write your code here
-    // out = input + 5;
+    const array1 = JSON.parse(input);
+    const array2 = JSON.parse(input1);
 
-/**/
-    output.innerText = out;
+    
+    for (let i = 0; i < array2.length; i++) {
+        array1.push(array2[i]);
+    }
+
+
+    output.innerText = array1;
+}
+
+
+
+
+
+
+
+function bla() {
+    document.getElementById("input").setAttribute("placeholder", "Array1");
+    document.getElementById("input1").hidden = false;
+    document.getElementById("input1").setAttribute("placeholder", "Array2");
 }
