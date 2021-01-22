@@ -8,7 +8,7 @@ function run() {
     let stopper;
     
 
-    //  checks which is smaller
+    //  define stopper for the 'for' loop by the smaller value
     
     if (input1 <= data.length) {
         stopper = input1;
@@ -18,7 +18,7 @@ function run() {
     }
 
 
-    //  putting them in the output variable.
+    //  putting relevant array values in the output variable.
 
     for (let i = 0; i < stopper; i++) {
         out.push(data[i]);
@@ -35,7 +35,7 @@ function run() {
 
 //  not part of the exercize, just making it nicer.
 
-function bla() {
+function setHtmlForQuestion {
     document.getElementById("input").setAttribute("placeholder", "Array");
     document.getElementById("input1").hidden = false;
     document.getElementById("input1").setAttribute("placeholder", "number");

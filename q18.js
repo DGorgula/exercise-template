@@ -2,10 +2,17 @@ function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");
     let out = "";
-/**/
-    // write your code here
-    // out = input + 5;
 
-/**/
+
     output.innerText = out;
+}
+
+
+
+
+
+function setHtmlForQuestion {
+    document.getElementById("input").setAttribute("placeholder", "Array");
+    document.getElementById("input1").hidden = false;
+    document.getElementById("input1").setAttribute("placeholder", "number");
 }

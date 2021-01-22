@@ -34,3 +34,6 @@ for (let i = 0; i < data.length; i++) {
 }
 
 
+function setHtmlForQuestion {
+    document.getElementById("input").setAttribute("placeholder", "Array");
+}

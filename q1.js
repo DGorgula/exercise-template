@@ -3,8 +3,19 @@ function run() {
     const output = document.getElementById("output");
     let out = "";
 
-    const data = JSON.parse(input);
-    out = Array.isArray(data);
+    //      if input begins with '[' and ends with ']'
+    if(/(^\[.+\]$)/i.test(input)) {
+        out = true;
+    }else{
+        out = false;
+    }
 
     output.innerText = out;
+}
+
+
+
+
+function setHtmlForQuestion {
+
 }

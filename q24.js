@@ -1,11 +1,20 @@
 function run() {
-    const input = document.getElementById("input").value;
-    const output = document.getElementById("output");
-    let out = "";
-/**/
-    // write your code here
-    // out = input + 5;
+    let array = [NaN, 0, 15, false, -22, '', undefined, 47, null];
+        for (let i = 0; i < array.length; i++) {
+            if (!array[i]) {
+                array.splice(i, 1);
+                i--
+            }
+        }
+    output.innerText = `The array:\n[NaN, 0, 15, false, -22, '', undefined, 47, null]\n without its falsy values = ${+array}`;
+}
 
-/**/
-    output.innerText = out;
+
+// console.log(run() === [ 15, -22, 47 ]);
+
+
+
+function setHtmlForQuestion {
+    document.getElementById("input").setAttribute("placeholder", "Just click \'Run\'");
+    //  = "[NaN, 0, 15, false, -22, '', undefined, 47, null]";
 }

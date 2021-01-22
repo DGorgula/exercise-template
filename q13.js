@@ -11,12 +11,20 @@ function add(){
     const input = document.getElementById("input").value;
     
     blankArr.push(input);
+
+    
+    //      input reset of value and placeholder
+
+    document.getElementById("input").value = "";
+    if (document.getElementById("input").getAttribute("placeholder")!== "Add another item or run") {
+        document.getElementById("input").setAttribute("placeholder", "Add another item or run");
+    }
 }
 
 
 
 
-function bla() {
-    document.getElementById("input").setAttribute("placeholder", "Put item here");
+function setHtmlForQuestion {
+    document.getElementById("input").setAttribute("placeholder", "Add a few items, then run");
     document.getElementById("add").hidden = false;
 } 
