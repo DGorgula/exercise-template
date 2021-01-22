@@ -24,7 +24,7 @@ function run() {
 
 
 
-function setHtmlForQuestion {
+function setHtmlForQuestion() {
     document.getElementById("input").setAttribute("placeholder", "Start Year");
     document.getElementById("input1").hidden = false;
     document.getElementById("input1").setAttribute("placeholder", "End Year");

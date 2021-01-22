@@ -20,7 +20,7 @@ function run() {
 
 
 
-function setHtmlForQuestion {
+function setHtmlForQuestion() {
     document.getElementById("input").setAttribute("placeholder", "Array1");
     document.getElementById("input1").hidden = false;
     document.getElementById("input1").setAttribute("placeholder", "Array2");

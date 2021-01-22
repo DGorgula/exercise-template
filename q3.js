@@ -35,7 +35,7 @@ function run() {
 
 //  not part of the exercize, just making it nicer.
 
-function setHtmlForQuestion {
+function setHtmlForQuestion() {
     document.getElementById("input").setAttribute("placeholder", "Array");
     document.getElementById("input1").hidden = false;
     document.getElementById("input1").setAttribute("placeholder", "number");

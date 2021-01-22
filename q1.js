@@ -16,6 +16,6 @@ function run() {
 
 
 
-function setHtmlForQuestion {
-
+function setHtmlForQuestion() {
+    document.getElementById("input").setAttribute("placeholder", "Something to check if Array");
 }

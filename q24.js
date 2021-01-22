@@ -14,7 +14,7 @@ function run() {
 
 
 
-function setHtmlForQuestion {
+function setHtmlForQuestion() {
     document.getElementById("input").setAttribute("placeholder", "Just click \'Run\'");
     //  = "[NaN, 0, 15, false, -22, '', undefined, 47, null]";
 }

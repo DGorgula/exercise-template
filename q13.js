@@ -24,7 +24,7 @@ function add(){
 
 
 
-function setHtmlForQuestion {
+function setHtmlForQuestion() {
     document.getElementById("input").setAttribute("placeholder", "Add a few items, then run");
     document.getElementById("add").hidden = false;
 } 
